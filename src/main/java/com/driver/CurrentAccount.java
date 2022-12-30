@@ -16,6 +16,9 @@ public class CurrentAccount extends BankAccount{
 
 
     }
+    public String getTradeLicenseId(){
+        return tradeLicenseId;
+    }
 
     public void validateLicenseId() throws Exception {
         // A trade license Id is said to be valid if no two consecutive characters are same
